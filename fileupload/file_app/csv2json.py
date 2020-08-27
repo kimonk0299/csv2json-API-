@@ -18,7 +18,6 @@ def convert2json(location):
                 row["chips"].append({"icon": "", "title": chip})          
 
             data.append(row)
-            print( type(data))
     
     jsonobject = json.dumps(data, indent= 4)
     return (jsonobject)
